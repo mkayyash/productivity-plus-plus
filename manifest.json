@@ -16,7 +16,7 @@
     },
    {
       "matches": ["http://*.google.com/*", "https://*.google.com/*"],
-      "exclude_matches": ["http://*.plus.google.com/*", "https://*.plus.google.com/*"],
+      "exclude_globs": ["*plus*"],
       "js": ["js/helper.js", "js/HideGplus.js"],
       "run_at": "document_idle",
       "all_frames": true
