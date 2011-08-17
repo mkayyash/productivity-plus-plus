@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Productivity++</title>
+<link rel="stylesheet" type="text/css" href="/css/options.css" />
+</head>
+<body>
+	<form onsubmit="return false;">
+		<div id="body-container">
+			<div class="title-image">
+				<img src="img/splash.gif" width="250" height="200"></img>
+			</div>
+			<div id="header"></div>
+			<div class="normal-mode">
+				<div class="sub-header">
+					<strong>Normal Mode</strong>
+				</div>
+				<div class="extension-options">
+					<ul>
+						<li>Show Gplus Notifications: <span> <input type="checkbox" id="normal_notif" />
+						</span></li>
+						<li>Google Chat Status: <span> <select id="normal_chat">
+									<option>Available</option>
+									<option>Busy</option>
+									<option>Invisible</option>
+							</select> </span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="productive-mode">
+				<div class="sub-header">
+					<strong>Productive Mode</strong>
+				</div>
+				<div class="extension-options">
+					<ul>
+						<li>Show Gplus Notifications: <span> <input type="checkbox" id="productive_notif" />
+						</span>
+						</li>
+						<li>Google Chat Status: <span> <select id="productive_chat">
+									<option>Available</option>
+									<option>Busy</option>
+									<option>Invisible</option>
+							</select> </span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="footer">
+				<button id="button-save">Save</button>
+				<button id="button-close">Close</button>
+				<span id="info-message">Options saved!</span>
+			</div>
+			<div id="credits">
+				Created by <a href="https://plus.google.com/104896537673470410734/about">Mohamad Ayyash</a>,
+				Source Code available in <a href="">Google
+					Code</a> <br /> Discussions and update available at <a
+					href="">Chrome Web Store</a> <br /> Please
+				report bug and feature requests at <a
+					href="">Google Code Features</a>
+			</div>
+		</div>
+	</form>
+</body>
+<script type="text/javascript" src="/js/helper.js"></script>
+<script type="text/javascript" src="/js/options.js"></script>
+</html>

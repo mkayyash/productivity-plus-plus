@@ -1,0 +1,26 @@
+{
+    "name": "Productivity++",
+    "version": "0.1",
+    "description": "Allows users to set two modes of action: normal and productivity.",
+    "browser_action": {
+      "default_title": "Toggle Mode"
+  },
+  "background_page": "background.html",
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://talkgadget.google.com/talkgadget/*"],
+      "js": ["js/helper.js", "js/ChatSignOut.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+   {
+      "matches": ["http://*.google.com/*", "https://*.google.com/*"],
+      "exclude_matches": ["http://*.plus.google.com/*", "https://*.plus.google.com/*"],
+      "js": ["js/helper.js", "js/HideGplus.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "permissions": ["tabs", "https://*.google.com/*", "http://*.google.com/*"]
+}

@@ -1,0 +1,39 @@
+.title-image {
+	position: relative;
+	top: 0px;
+}
+
+.normal-mode {
+	position: relative;
+	top: 10px;
+	width: 50%;
+	border-style: groove;
+	border-width: 5px;
+	border-color: blue;
+	border-style: groove;
+}
+
+.productive-mode {
+	position: relative;
+	top: 20px;
+	width: 50%;
+	border-style: groove;
+	border-width: 5px;
+	border-color: red;
+}
+
+#footer {
+	position: relative;
+	top: 30px;
+	width: 40%;
+}
+
+#credits {
+	position: relative;
+	top: 60px;
+}
+
+#info-message {
+	opacity: 0;
+	color: green;
+}
