@@ -2,7 +2,7 @@
  * Injected in all the iFrames of google pages. Controls the visibility of Gplus
  * notifications
  * 
- * @author Mohamad Ayyash (mkayyash) 2011
+ * @author Mohamad Ayyash (mkayyash@gmail.com) 2011
  * @constructor
  */
 HideGplus = function() {

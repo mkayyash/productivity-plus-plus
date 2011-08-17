@@ -7,7 +7,7 @@ settings = {
   set mode(val) {
 	  localStorage['mode'] = val;
   },
-  
+
   get normalNotif() {
 	  var key = localStorage['normalNotif'];
 	  return (typeof key == 'undefined') ? "true" : key;

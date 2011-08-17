@@ -4,22 +4,21 @@
 }
 
 .normal-mode {
-	position: relative;
-	top: 10px;
-	width: 50%;
-	border-style: groove;
+  border-color: blue;
+  border-style: groove;
 	border-width: 5px;
-	border-color: blue;
-	border-style: groove;
+  position: relative;
+  top: 10px;
+  width: 50%;
 }
 
 .productive-mode {
+  border-color: red;
+  border-style: groove;
+  border-width: 5px;
 	position: relative;
 	top: 20px;
-	width: 50%;
-	border-style: groove;
-	border-width: 5px;
-	border-color: red;
+	width: 50%;	
 }
 
 #footer {
@@ -34,6 +33,6 @@
 }
 
 #info-message {
-	opacity: 0;
 	color: green;
+	opacity: 0;	
 }

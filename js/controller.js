@@ -1,3 +1,4 @@
+
 var bkground = chrome.extension.getBackgroundPage();
 // sets the initial icon according to mode
 chrome.browserAction.setIcon({
@@ -22,7 +23,7 @@ refreshScriptsTab = function(tab) {
 
 /*
  * Loops through the tabs in all windows (only the ones listed under permissions
- * in manifest.json and requests a refresh
+ * in manifest.json) and requests a refresh
  */
 triggerUpdate = function() {
     chrome.windows.getAll({}, function(windows) {

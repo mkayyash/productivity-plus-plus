@@ -4,7 +4,7 @@
  * 
  * TODO Support Gmail's talk gadget
  * 
- * @author Mohamad Ayyash (mkayyash) 2011
+ * @author Mohamad Ayyash (mkayyash@gmail.com) 2011
  * @constructor
  */
 ChatSignOut = function() {
@@ -116,8 +116,7 @@ ChatSignOut.prototype.clickDiv = function(divId) {
 /**
  * Returns the ID of the relevant chat status item
  * 
- * @param desiredChat
- *            String representation of the chat status item
+ * @param desiredChat String representation of the chat status item
  * @returns {String} Chat item's ID
  */
 ChatSignOut.prototype.getStatusID = function(desiredChat) {
