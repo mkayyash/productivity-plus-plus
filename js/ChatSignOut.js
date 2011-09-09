@@ -16,8 +16,8 @@ ChatSignOut = function() {
     this.maxRuns = 10;
     this.currentRuns = 0;
 
-    this.statusID = ':pf';
-    this.chatBoxID = ':pe';
+    this.statusID = ':pm';
+    this.chatBoxID = ':pl';
     this.availableID = "*mba";
     this.busyID = "*mbb";
     this.invisibleID = "*mi";

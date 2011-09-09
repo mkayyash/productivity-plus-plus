@@ -1,6 +1,6 @@
 {
     "name": "Productivity++",
-    "version": "0.3",
+    "version": "0.4",
     "description": "Allows users to set two modes of action: normal and productivity.",
     "browser_action": {
       "default_title": "Toggle Mode"
